@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,15 @@
   <title>Exercicio fetch</title>
   <link rel="stylesheet" href="index.css">
 </head>
-<body>
-  <div class="result">
-    <h1>Lista de imagens</h1>
-  </div>
 
-  <script src="fetch.js"></script>
+<body>
+
+  <h1>Images List</h1>
+  <button onclick="getImages(30)">Show</button>
+  <p id="loading"></p>
+  <div id="app"></div>
+
+  <script src="index.js"></script>
 </body>
+
 </html>
